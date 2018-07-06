@@ -17,9 +17,9 @@ class Products extends React.Component {
         ))
         return (
             <div>
-                <h1>Products Page</h1>
+                <h1><center>Paintball Products</center> </h1>
                 <div>
-                {productElements}
+            <strong> {productElements}</strong>
                 </div>
             </div>
         )

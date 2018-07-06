@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import "./index.css"
 
+
 const NavTabs = props => (
     <ul className="nav nav-tabs">
     <li className="nav-item">

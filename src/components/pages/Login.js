@@ -4,7 +4,15 @@ class Login extends React.Component {
         return (
             <div>
                 <h1>Login Page</h1>
-            </div>
+                
+         
+          <h2>Username</h2>
+          <h2>Password</h2>
+    
+            
+        </div>
+
+           
         )
     }
 }
