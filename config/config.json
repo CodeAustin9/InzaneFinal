@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "ratings_db",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "woco",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JawsDB_URL",
+    "dialect": "mysql"
+  }
+}
