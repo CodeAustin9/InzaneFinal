@@ -23,8 +23,8 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 <strong>PRECISION / ACCURACY</strong>
 <div>
 {/* <li>
-    <a href="https://twitter.com/letsbsocial1">
-        <img class="footerTwiiter" src="data:image/png:base64, iVBOR....AZaPAJx1SWgAAAAASUVORK5CYII=" width="40" alt="twitter">
+    <a href="http://inzanepb.com/____impro/1/onewebmedia/Logo%20Inzane.png?etag=W%2F%22e049-598a476c%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=435%2B271">
+        <img class="inzaneLogo" src="#" width="40" alt="logo">
     </a>
 </li> */}
 
