@@ -44,7 +44,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
     <li>Nontoxic and biodegradable</li>
  </ul>
  </div>
-<h2><strong>ADVANTAGE OF THE SHELL / SHELL ADVANTAGE</strong></h2>
+<h2><strong>SHELL ADVANTAGE</strong></h2>
 <div>
  <ul>
     <li>Patented formula</li>

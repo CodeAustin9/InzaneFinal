@@ -21,16 +21,18 @@ class Login extends React.Component {
             <div>
                 <h1>Login Page</h1>
                 <form>
-                    <label>Username</label>
+                    <div>
+                    <label><strong>Username:  </strong></label>
                     <input type="text" name="username" onChange={this.handleChange} value={this.state.username}/>
+                   </div>
                     <br/>
-                    <label>Password</label>
+                    <div>
+                    <label><strong>Password: </strong></label>
                     <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
+                   </div>
+
                     <br/>
                     <button type="submit" onClick={this.handleSubmit}>Submit</button>
-         
-
-    
             </form>
         </div>
 
@@ -40,3 +42,4 @@ class Login extends React.Component {
 }
 
 export default Login;
+// need a clear button;

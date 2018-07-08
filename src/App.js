@@ -9,7 +9,7 @@ import Locations from "./components/pages/Locations";
 import Products from "./components/pages/Products";
 import Login from "./components/pages/Login";
 import Cart from "./components/pages/Cart";
-// import Logo from "./components/Logo.svg";
+
 
 class App extends Component {
   render() {
