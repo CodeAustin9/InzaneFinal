@@ -1,6 +1,14 @@
 import React from "react";
 class Home extends React.Component {
     render() {
+        const style = {
+            height: 700,
+            width: 800,
+            marginLeft: 500,
+            marginTop: 20,
+            textAlign: 'center',
+            display: 'inline-block',
+        };
         return (
             <div>
                 <strong><h1>Our Company</h1></strong>

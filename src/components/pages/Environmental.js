@@ -2,9 +2,9 @@ import React from "react";
 class Environmental extends React.Component {
     render() {
         return (
-            <div>
+            <div style={{ background: "white", width: "100%", minHeight: "200px"}}>
                 <h1>Environmental Paintballs</h1>
-                <p><strong>PRODUCT DESCRIPTION:</strong>
+                <h2><strong>PRODUCT DESCRIPTION:</strong></h2>
 <div>
     <p>
 This product contains paintballs that are specifically designed to break on impact of a soft surface. Paintballs are 
@@ -12,7 +12,7 @@ This product contains paintballs that are specifically designed to break on impa
 </p>
 </div>
 <div>
-<strong>PRODUCT FEATURES</strong>
+<h2><strong>PRODUCT FEATURES</strong></h2>
 </div>
 <div>
 <p>
@@ -20,7 +20,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 </div>
 <div>
     </div>
-<strong>PRECISION / ACCURACY</strong>
+<h2><strong>PRECISION / ACCURACY</strong></h2>
 <div>
 {/* <li>
     <a href="http://inzanepb.com/____impro/1/onewebmedia/Logo%20Inzane.png?etag=W%2F%22e049-598a476c%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=435%2B271">
@@ -36,7 +36,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
     <li>Dynamic appearance</li>
  </ul>
  </div>
-<strong>ABILITY MARKING / MARKING ABILITY</strong>
+<h2><strong>MARKING ABILITY</strong></h2>
 <div>
  <ul>
     <li>Specially formulated viscosity </li>
@@ -44,7 +44,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
     <li>Nontoxic and biodegradable</li>
  </ul>
  </div>
-<strong>ADVANTAGE OF THE SHELL / SHELL ADVANTAGE</strong>
+<h2><strong>ADVANTAGE OF THE SHELL / SHELL ADVANTAGE</strong></h2>
 <div>
  <ul>
     <li>Patented formula</li>
@@ -52,17 +52,17 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 </ul>
 </div>
  
-<strong>USE AND STORAGE</strong>
+<h2><strong>USE AND STORAGE</strong></h2>
 <div>
 
 <p>
 Paintballs require strict temperature and humidity storage conditions. Paintballs must be kept in a dry place at temperatures between 15˚ and 30˚ C, (50˚ to 86˚ F). Failure to observe proper storage may result in a damaged or deformed product.
 </p>
 </div>
-<strong>CAPSULE CHARACTERISTICS</strong>
+<h2><strong>CAPSULE CHARACTERISTICS</strong></h2>
 <p>
 Paintballs require strict temperature and humidity storage conditions. Paintballs must be kept in a dry place at temperatures between 15˚ and 30˚ C, (50˚ to 86˚ F). Failure to observe proper storage may result in a damaged or deformed product.</p>
- </p>  
+ 
             </div>
         )
     }
