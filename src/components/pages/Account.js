@@ -4,11 +4,11 @@ class Account extends React.Component {
     render() {
         return (
             <div>
-                <h1>Account Page</h1>
-                <h2>First Name</h2>
-          <h2>Last Name</h2>
-          <h2>Username</h2>
-          <h2>Password</h2>
+                <h1>My Account</h1>
+          <h2>Edit My Account</h2>
+          <h2>Past Orders</h2>
+          <h2>Payment Methods</h2>
+          <h2>Signout</h2>
             </div>
         )
     }

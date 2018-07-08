@@ -75,14 +75,14 @@ export default NavTabs;
 //               </NavItem>
 //               <UncontrolledDropdown nav inNavbar>
 //                 <DropdownToggle nav caret>
-//                   Account
+//                   My Account
 //                 </DropdownToggle>
 //                 <DropdownMenu right>
 //                   <DropdownItem>
 //                     Edit Profile
 //                   </DropdownItem>
 //                   <DropdownItem>
-//                     My Account
+//                     My Orders
 //                   </DropdownItem>
 //                   <DropdownItem divider />
 //                   <DropdownItem>

@@ -12,13 +12,13 @@ class Order extends React.Component{
         const total=subtotal*(1+tax) + shipping
         return(
         <div>
-            <h2>Order Summary</h2>
+            <h2><strong>Order Summary</strong></h2>
            You are purchasing {number} products.
            Your subtotal is: {subtotal}.
            Shipping cost: {shipping}.
            Total Tax: {tax*subtotal}.
            Grand Total: {total}.
-           <button onClick={this.props.placeOrder}>Place Order</button>        
+           <button onClick={this.props.placeOrder}> Place Order</button>        
             </div>
         )
     }

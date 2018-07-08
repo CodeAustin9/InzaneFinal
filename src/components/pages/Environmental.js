@@ -7,7 +7,7 @@ class Environmental extends React.Component {
                 <h2><strong>PRODUCT DESCRIPTION:</strong></h2>
 <div>
     <p>
-This product contains paintballs that are specifically designed to break on impact of a soft surface. Paintballs are 
+This product contains paintballs that are specifically designed to break on impact of a soft surface. FIRST Paintballs are 
 <strong> BIODEGRADABLE</strong> and will not harm the environment.
 </p>
 </div>
@@ -59,9 +59,6 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 Paintballs require strict temperature and humidity storage conditions. Paintballs must be kept in a dry place at temperatures between 15˚ and 30˚ C, (50˚ to 86˚ F). Failure to observe proper storage may result in a damaged or deformed product.
 </p>
 </div>
-<h2><strong>CAPSULE CHARACTERISTICS</strong></h2>
-<p>
-Paintballs require strict temperature and humidity storage conditions. Paintballs must be kept in a dry place at temperatures between 15˚ and 30˚ C, (50˚ to 86˚ F). Failure to observe proper storage may result in a damaged or deformed product.</p>
  
             </div>
         )
