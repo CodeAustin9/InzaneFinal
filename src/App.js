@@ -9,6 +9,7 @@ import Locations from "./components/pages/Locations";
 import Products from "./components/pages/Products";
 import Login from "./components/pages/Login";
 import Cart from "./components/pages/Cart";
+import Footer from "./components/Footer";
 
 
 class App extends Component {
