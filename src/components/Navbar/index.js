@@ -1,10 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import "./index.css"
+import "./index.css";
 
 
 const NavTabs = props => (
     <ul className="nav nav-tabs">
+    <li><img src={require("../images/logo.png")}/></li>
     <li className="nav-item">
     <Link to="/">Home</Link>
     </li>

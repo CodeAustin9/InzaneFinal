@@ -16,8 +16,7 @@ class App extends Component {
     return (
       <Router>
       <div>
-        <container>
-          <row>
+        
         <NavTabs/>
         <Route exact path="/" component={Home}/>
         <Route exact path="/Environmental" component={Environmental}/>
@@ -26,8 +25,7 @@ class App extends Component {
         <Route exact path="/Products" component={Products}/>
         <Route exact path="/Login" component={Login}/>
         <Route exact path="/cart" component={Cart}/>
-        </row>
-        </container>
+       
       </div>
     </Router>
       );
