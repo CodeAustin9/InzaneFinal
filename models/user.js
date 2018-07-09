@@ -1,6 +1,6 @@
 // Requiring bcrypt for password hashing. Using the bcrypt-nodejs version as the regular bcrypt module
 // sometimes causes errors on Windows machines
-var bcrypt = require("bcrypt-nodejs");
+// var bcrypt = require("bcrypt-nodejs");
 // Creating our User model
 // module.exports = function (sequelize, DataTypes) {
 //     var User = sequelize.define("User", {
@@ -39,7 +39,7 @@ var usernameSchema = new Schema({
   email: {
     type: String,
     required: true,
-    unique: { index: { unique: true } }
+    unique: true
   },
   // summary, a string, must be entered
   password: {
@@ -55,13 +55,13 @@ var User = mongoose.model("User", usernameSchema);
 //Go to where you create a user and move code here;
 //Tutorials on converting sequelize to mongoose
 //look up hooks in mongoose;
-User.prototype.validPassword = function (password) {
-    return bcrypt.compareSync(password, this.password);
-};
+// User.prototype.validPassword = function (password) {
+//     return bcrypt.compareSync(password, this.password);
+// };
 
-User.hook("beforeCreate", function (user) {
-    user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
-});
+// User.hook("beforeCreate", function (user) {
+//     user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
+// });
 
 // Export the Headline model
 module.exports = User;

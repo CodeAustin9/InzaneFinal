@@ -1,6 +1,6 @@
 import React from 'react';
 import {getCart} from '../../cart';
-import{products} from "../../products";
+var products = [];
 
 class Order extends React.Component{
     render(){

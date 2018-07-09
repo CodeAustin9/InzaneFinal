@@ -6,22 +6,25 @@ class Locations extends React.Component {
               
                 <h1><strong>LOCATIONS</strong></h1>
                 <div>
-                    <h2> OFFICIAL DEALERS</h2>
+
+                <h2> OFFICIAL DEALERS</h2>
                 </div>
                 <div>
                 <h2><strong>USA</strong>(HEADQUARTERS)</h2>
                 </div>
-                <div className="usa">
-                
+
+                <div class="container">
+                <div class="row">
+                <div class="col-sm">
                 Philadelphia, Pennsylvania
                 Insanity Enginnering Corporation
                 93 Peters Lane, Blackwood NJ, USA
                 zip 08012
                 phone (856) 401 8349
                 >email: usa@inzanepb.com
-                
                 </div>
-                
+    
+                <div class="col-sm">
                 <h2><strong>CANADA</strong></h2>
                 
                 Toronto, Ontario
@@ -29,14 +32,22 @@ class Locations extends React.Component {
                 20 Lockport Avenue, M8Z2R7 Etobicoke ON.
                 phone+ 1 416 233 5888
                 email: can@inzanepb.com
-                
+                </div>
+                </div>
+
+                <div>
+                <div class="col-sm">
                 <h2><strong>CENTRAL AMERICA</strong></h2>
               
                 
                 Interested in Becoming Dealers
                  MAKE CONTACT
-                
-                
+                </div>
+                </div>
+
+                <div clss="container">
+                <div class="row">
+                <div class="col-sm">
                  <h2><strong>SOUTH AMERICA</strong></h2>
                 
                 Interested in Becoming Dealers
@@ -84,7 +95,14 @@ class Locations extends React.Component {
                 phone: (442) 6 90 13 22 / (442) 2 26 08 08
                 email: gmmerzyco@gmail.com
                 </div>
-            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+            
+           
+            
         )
     }
 }

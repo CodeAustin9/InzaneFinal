@@ -1,16 +1,13 @@
-// Web Scraper Homework Solution Example
-// (be sure to watch the video to see
-// how to operate the site in the browser)
-// -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
 
 // Require our dependencies
 var express = require("express");
 var mongoose = require("mongoose");
-
+var passport = require("passport");
 var bodyParser = require("body-parser");
-
+var session = require("express-session");
+require("./authentication/passport");
 // Set up our port to be either the host's designated port, or 3000
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3001;
 
 // Instantiate our Express App
 var app = express();
@@ -19,17 +16,18 @@ var app = express();
 var routes = require("./routes");
 if (process.env.NODE_ENV === "production") {
 
-app.use(express.static("/build"));
+app.use(express.static("./build"));
 }
-
-
 
 // Use bodyParser in our app
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+app.use(session({
+  secret: "sgrfdghj"
+}));
 // Have every request go through our route middleware
-require("./routes/authentication.js")(app);
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(routes);
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/username";
