@@ -1,4 +1,5 @@
 import React from "react";
+
 class Login extends React.Component {
     state={
         username: "",
@@ -19,20 +20,20 @@ class Login extends React.Component {
     render() {
         return (
             <div>
-                <h3>Login</h3>
+                <h3><center>Login</center></h3>
                 <form>
                     <div>
-                    <label><h5><strong>Username:</strong> </h5> </label>
+                    <label><h5><center><strong>Username:</strong></center> </h5> </label>
                     <input type="text" name="username" onChange={this.handleChange} value={this.state.username}/>
                    </div>
                     <br/>
                     <div>
-                    <label><h5><strong>Password:  </strong></h5></label>
+                    <label><h5><center><strong>Password:  </strong></center></h5></label>
                     <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
                    </div>
 
                     <br/>
-                    <button type="submit" onClick={this.handleSubmit}>Submit</button>
+                    <center><button type="submit" onClick={this.handleSubmit}>Submit</button></center>
             </form>
         </div>
 

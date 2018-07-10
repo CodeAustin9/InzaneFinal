@@ -1,0 +1,14 @@
+.envTitle{}
+.envImage{
+    float: left;
+    height: 400px;
+    width: 50%;
+}
+.envDesc{
+    float: left;
+    height: 400px;
+    width: 50%;
+}
+ul{
+    background-color: white;
+}

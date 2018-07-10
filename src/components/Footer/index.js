@@ -13,7 +13,7 @@
 //     <div className="col l4 offset-l2 s12">
 //       <h5 className="white-text">Links</h5>
 //       <ul>
-//         <li><a className="grey-text text-lighten-3" href="#!">Reviews</a></li>
+//         <li><a className="grey-text text-lighten-3" href="#!">Patrons</a></li>
 //         <li><a className="grey-text text-lighten-3" href="#!">Additional Gear</a></li>
 //         <li><a className="grey-text text-lighten-3" href="#!">Contact</a></li>
 //         <li><a className="grey-text text-lighten-3" href="#!">Chat</a></li>

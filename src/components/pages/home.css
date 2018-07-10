@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+
+}
+.title > h3 {
+    margin-top: 0;
+    
+}
+.info{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 23px;
+    
+}
+.contents{
+    background-color: gray;
+    padding-bottom: 20px;
+    padding-top:20px;
+    
+
+}
