@@ -15,7 +15,7 @@ class Environmental extends React.Component {
 <div>
     <p>
 This product contains paintballs that are specifically designed to break on impact of a soft surface. FIRST Paintballs are 
-<strong> BIODEGRADABLE</strong> and will not harm the environment.
+<strong> BIODEGRADABLE</strong> and WILL NOT HARM THE ENVIRONMENT.
 </p>
 
 </div>
