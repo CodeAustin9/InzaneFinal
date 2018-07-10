@@ -29,6 +29,7 @@ class Locations extends React.Component {
                 93 Peters Lane, Blackwood NJ, USA
                 zip 08012
                 phone (856) 401 8349
+                email:
                 <a href="mailto:usa@inzanepb.com"> usa@inzanepb.com</a>
                
                 </div>
@@ -40,7 +41,9 @@ class Locations extends React.Component {
                 Eastle Boyz Paintball
                 20 Lockport Avenue, M8Z2R7 Etobicoke ON.
                 phone+ 1 416 233 5888
-                email: can@inzanepb.com
+                email:
+                <a href="mailto:can@inzanepb.com"> can@inzanepb.com</a>
+              
                 </div>
                 </div>
 
@@ -50,7 +53,7 @@ class Locations extends React.Component {
               
                 
                 Interested in Becoming Dealers
-                 MAKE CONTACT
+                <a href="auo@npdmcorp.com">MAKE CONTACT</a>
                 </div>
                 </div>
 
@@ -60,7 +63,8 @@ class Locations extends React.Component {
                  <h4><strong>SOUTH AMERICA</strong></h4>
                 
                 Interested in Becoming Dealers
-                 MAKE CONTACT
+                <a href="auo@npdmcorp.com">MAKE CONTACT</a>
+                 
                 
                 
                  <h4><strong>MEXICO</strong></h4>
@@ -71,7 +75,9 @@ class Locations extends React.Component {
                 C.P. 07820
                 phone: 5577-6348 / 5577-6062
                 01 800 746 82 42
-                email: auo@npdmcorp.com
+                email:
+                <a href="auo@npdmcorp.com"> auo@npdmcorp.com</a>
+              
                 </div>
                 
                 <div>
@@ -79,13 +85,17 @@ class Locations extends React.Component {
                 La Quemada #53, Col. Narvarte,
                 CP 03020
                 phone: 5519-0303
-                email: pietro84mx@yahoo.com.mx
+                email:
+                <a href="pietro84mx@yahoo.com.mx"> pietro84mx@yahoo.com.mx</a>
+                
                 </div>
                 <div>
                 Monterrey, Nuevo León
                 AdrenalX
                 phone: 04455 2888-6371
-                email: mty@adrenalx.mx
+                email:
+                <a href="mty@adrenalx.mx"> mty@adrenalx.mx</a>
+                
                 </div>
                 <div>
                 Guadalajara, Jalisco
@@ -94,7 +104,9 @@ class Locations extends React.Component {
                 Col. Jardines del Valle
                 C.P. 45138
                 phone: 04455-27-28-6372 / 04533-1300-3533
-                email: lara@adrenalx.mx
+                email:
+                <a href="lara@adrenalx.mx"> lara@adrenalx.mx</a>
+                
                 </div>
                 <div>
                 Queretaro, Queretaro
@@ -102,7 +114,9 @@ class Locations extends React.Component {
                 Calle: Marques de la Villa del Villar del Aguila 217 Int 3, Mirador del Marques, 76146 Santiago de Querétaro, Qro.
                 C.P. 45138
                 phone: (442) 6 90 13 22 / (442) 2 26 08 08
-                email: gmmerzyco@gmail.com
+                email:
+                <a href="gmmerzyco@gmail.com"> gmmerzyco@gmail.com</a>
+                
                 </div>
           </div>
           </div>
