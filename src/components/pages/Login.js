@@ -19,15 +19,15 @@ class Login extends React.Component {
     render() {
         return (
             <div>
-                <h1>Login Page</h1>
+                <h3>Login</h3>
                 <form>
                     <div>
-                    <label><strong>Username:  </strong></label>
+                    <label><h5><strong>Username:</strong> </h5> </label>
                     <input type="text" name="username" onChange={this.handleChange} value={this.state.username}/>
                    </div>
                     <br/>
                     <div>
-                    <label><strong>Password: </strong></label>
+                    <label><h5><strong>Password:  </strong></h5></label>
                     <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
                    </div>
 

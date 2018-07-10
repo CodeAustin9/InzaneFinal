@@ -7,7 +7,7 @@ class Environmental extends React.Component {
                 <div>
 
                     </div>
-                    <li><img src={require("../images/maddness/mcc.png")}/></li>
+                    <li><img src={require("../images/demmented/dcc.png")}/></li>
 
                     <div>
                 <h4><strong>PRODUCT DESCRIPTION</strong></h4>
@@ -44,7 +44,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
     <li>16 mm diameter or 0.68 inch</li>
     <li>Dynamic appearance</li>
  </ul>
- <li><img src={require("../images/maddness/mma.png")}/></li>
+ <li><img src={require("../images/demmented/da.png")}/></li>
 
 
 </div>
@@ -59,7 +59,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
     
  </ul>
  </div>
- <li><img src={require("../images/maddness/ma.png")}/></li>
+ <li><img src={require("../images/demmented/dma.png")}/></li>
 </div>
 <h4><strong>SHELL ADVANTAGE</strong></h4>
 <div>
@@ -68,7 +68,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
     <li>Breaks on impact</li>
 </ul>
 </div>
-<li><img src={require("../images/maddness/msa.png")}/></li>
+<li><img src={require("../images/demmented/dsa.png")}/></li>
 
 <div>
 <h4><strong>USE AND STORAGE</strong></h4>

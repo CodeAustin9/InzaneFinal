@@ -1,32 +1,37 @@
 import React from "react";
+import "./locations.css";
 
 class Locations extends React.Component {
     render() {
         return (
-            <div>
-              
-                <h1><strong>LOCATIONS</strong></h1>
+           
+              <div class="container">
+                <div class="row">
+                <div class="col-sm">
+                <h3><center><strong>LOCATIONS</strong></center></h3>
                 <div>
-                <li><img src={require("../images/map.png")}/></li>
-                
+                <li><center><img src={require("../images/map.png")}/></center></li>
                 </div>
-                <div>
-                <h2><strong>USA</strong>(HEADQUARTERS)</h2>
                 </div>
 
                 <div class="container">
                 <div class="row">
                 <div class="col-sm">
+                <div>
+                <h4><strong>USA</strong>(HEADQUARTERS)</h4>
+                </div>
+
+               
                 Philadelphia, Pennsylvania
                 Insanity Enginnering Corporation
                 93 Peters Lane, Blackwood NJ, USA
                 zip 08012
                 phone (856) 401 8349
-                >email: usa@inzanepb.com
+                email: usa@inzanepb.com
                 </div>
     
                 <div class="col-sm">
-                <h2><strong>CANADA</strong></h2>
+                <h4><strong>CANADA</strong></h4>
                 
                 Toronto, Ontario
                 Eastle Boyz Paintball
@@ -38,7 +43,7 @@ class Locations extends React.Component {
 
                 <div>
                 <div class="col-sm">
-                <h2><strong>CENTRAL AMERICA</strong></h2>
+                <h4><strong>CENTRAL AMERICA</strong></h4>
               
                 
                 Interested in Becoming Dealers
@@ -49,13 +54,13 @@ class Locations extends React.Component {
                 <div clss="container">
                 <div class="row">
                 <div class="col-sm">
-                 <h2><strong>SOUTH AMERICA</strong></h2>
+                 <h4><strong>SOUTH AMERICA</strong></h4>
                 
                 Interested in Becoming Dealers
                  MAKE CONTACT
                 
                 
-                 <h2><strong>MEXICO</strong></h2>
+                 <h4><strong>MEXICO</strong></h4>
                 <div>
                 Mexico, City
                 National Paintball Dealer Mexico
@@ -100,7 +105,8 @@ class Locations extends React.Component {
           </div>
           </div>
           </div>
-          </div>
+         </div>
+         </div>
             
            
             
