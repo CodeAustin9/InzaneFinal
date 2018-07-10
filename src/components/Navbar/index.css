@@ -31,3 +31,17 @@ img{
     height: auto;
     
 }
+
+.nav{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 0;
+    align-items: stretch;
+}
+.nav li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.4rem;
+}

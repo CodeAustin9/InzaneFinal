@@ -31,14 +31,14 @@ class Environmental extends React.Component {
                     </p>
                 </div>
 
- <div className="envDesc">
+                 <div className="envDesc">
                     <h4><strong>PRECISION / ACCURACY</strong></h4>
                     <ul className="list">
-                        <li>Specially formulated shell </li>
-                        <li> Ideal ball weight</li>
-                        <li> Straight trajectory </li>
-                        <li>16 mm diameter or 0.68 inch</li>
-                        <li>Dynamic appearance</li>
+                        <li>Specially Formulated Shell </li>
+                        <li>Ideal Ball Weight</li>
+                        <li>Straight Trajectory </li>
+                        <li>16 mm Diameter or 0.68 Inch</li>
+                        <li>Dynamic Appearance</li>
                     </ul>
                 </div>
                 <div className="envImage">
@@ -65,8 +65,8 @@ class Environmental extends React.Component {
                 <div className="envDesc">
                     <h4><strong>SHELL ADVANTAGE</strong></h4>
                     <ul>
-                        <li>Patented formula</li>
-                        <li>Breaks on impact</li>
+                        <li>Patented Formula</li>
+                        <li>Breaks on Impact</li>
                     </ul>
                 </div>
 

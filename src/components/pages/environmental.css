@@ -6,9 +6,26 @@
 }
 .envDesc{
     float: left;
-    height: 400px;
+    min-height: 400px;
     width: 50%;
+    font-style: bold;
+    font-size: 20px;
+    
 }
 ul{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5{
+    text-align: center;
+}
+
+li{
+    display: block;
 }
