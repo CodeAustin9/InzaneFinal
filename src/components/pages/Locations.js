@@ -29,7 +29,8 @@ class Locations extends React.Component {
                 93 Peters Lane, Blackwood NJ, USA
                 zip 08012
                 phone (856) 401 8349
-                email: usa@inzanepb.com
+                <a href="mailto:usa@inzanepb.com"> usa@inzanepb.com</a>
+               
                 </div>
     
                 <div class="col-sm">
