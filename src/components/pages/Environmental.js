@@ -3,12 +3,15 @@ class Environmental extends React.Component {
     render() {
         return (
             <div style={{ background: "white", width: "100%", minHeight: "200px"}}>
-                <h3>Environmental Paintballs</h3>
+                <h3><strong><center>Environmental Paintballs</center></strong></h3>
                 <div>
 
                     </div>
+                    <li><img src={require("../images/maddness/mcc.png")}/></li>
+
                     <div>
                 <h4><strong>PRODUCT DESCRIPTION</strong></h4>
+
 <div>
     <p>
 This product contains paintballs that are specifically designed to break on impact of a soft surface. FIRST Paintballs are 
@@ -29,7 +32,6 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 <div>
     </div>
     <div>
-    <li><img src={require("../images/maddness/mcc.png")}/></li>
 </div>
 <div>
 <h4><strong>PRECISION / ACCURACY</strong></h4>
@@ -67,6 +69,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 </div>
 <li><img src={require("../images/maddness/msa.png")}/></li>
 
+<div>
 <h4><strong>USE AND STORAGE</strong></h4>
 <div>
 
@@ -74,7 +77,7 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 Paintballs require strict temperature and humidity storage conditions. Paintballs must be kept in a dry place at temperatures between 15˚ and 30˚ C, (50˚ to 86˚ F). Failure to observe proper storage may result in a damaged or deformed product.
 </p>
 </div>
- 
+ </div>
             </div>
         )
     }

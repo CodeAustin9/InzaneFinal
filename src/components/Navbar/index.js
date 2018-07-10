@@ -22,11 +22,12 @@ const NavTabs = props => (
     <Link to="/cart">Cart</Link>
     </li>
     <li className="nav-item">
-    <Link to="/Login">Login</Link>
-    </li>
-    <li className="nav-item">
     <Link to="/Account">Account</Link>
     </li>
+    <li className="nav-item">
+    <Link to="/Login">Login</Link>
+    </li>
+
     </ul>
     
 
