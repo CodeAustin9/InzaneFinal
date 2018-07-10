@@ -1,4 +1,5 @@
 import React from "react";
+
 class Locations extends React.Component {
     render() {
         return (
@@ -6,8 +7,8 @@ class Locations extends React.Component {
               
                 <h1><strong>LOCATIONS</strong></h1>
                 <div>
-
-                <h2> OFFICIAL DEALERS</h2>
+                <li><img src={require("../images/map.png")}/></li>
+                
                 </div>
                 <div>
                 <h2><strong>USA</strong>(HEADQUARTERS)</h2>

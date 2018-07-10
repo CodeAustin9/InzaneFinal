@@ -20,6 +20,7 @@ class Home extends React.Component {
                             quality products in the field, for professionals and beginners. Our team of professionals is dedicated to serving the different lines of businesses, guaranteeing the best service and attention to our distributors and end users.
                             In this way, we have established ourselves as a serious and reputable company that generates prosperous businesses for the Paintball industry. We are Inzane for Paintball, are you InZane yet? </strong>
                     </p>
+                    <li><img src={require("../images/maddness/mc.png")}/></li>
 
                 </div>
             </div>

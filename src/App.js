@@ -9,7 +9,7 @@ import Locations from "./components/pages/Locations";
 import Products from "./components/pages/Products";
 import Login from "./components/pages/Login";
 import Cart from "./components/pages/Cart";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer/index.js";
 
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
         <Route exact path="/Products" component={Products}/>
         <Route exact path="/Login" component={Login}/>
         <Route exact path="/cart" component={Cart}/>
-       
+       {/* <Footer /> */}
       </div>
     </Router>
       );
