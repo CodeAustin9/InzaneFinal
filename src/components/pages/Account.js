@@ -1,9 +1,77 @@
 import React from "react";
+import "./login.css";
 
-class Account extends React.Component {
+class Login extends React.Component {
+    state={
+        username: "",
+        password: "",
+    }
+    handleChange=(event)=>{ 
+        const {name, value} = event.target;
+        this.setState({
+            [name]:value
+        })
+       }
+    handleSubmit=(event)=>{
+        event.preventDefault();
+        console.log(this.state.username);
+        console.log(this.state.password);
+    }
+
     render() {
         return (
-            <div>
+            <div className="body">
+                <h3><center>Account</center></h3>
+                <form>
+                    <div className="labels">
+                    <label><h5><center><strong>First Name:</strong></center> </h5> </label>
+                    </div>
+                   <div className="input">
+                    <input type="text" name="username" onChange={this.handleChange} value={this.state.username}/>
+                   </div>
+                   
+                   
+                    <div>
+                    <label><h5><center><strong>Last Name:  </strong></center></h5></label>
+    
+                    <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
+                   </div>
+                   <div>
+                    <label><h5><center><strong>Password:  </strong></center></h5></label>
+    
+                    <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
+                   </div>
+                   <div>
+                    <label><h5><center><strong>Confirm Password:  </strong></center></h5></label>
+    
+                    <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
+                   </div>
+                   <div>
+                    <label><h5><center><strong>Order History:  </strong></center></h5></label>
+    
+                    <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
+                   </div>
+                   <div>
+                    <label><h5><center><strong>Make Payments:  </strong></center></h5></label>
+    
+                    <input type="text" name="password" onChange={this.handleChange} value={this.state.password}/>
+                   </div>
+
+                    <br/>
+                    <center><button type="submit" onClick={this.handleSubmit}>Submit</button></center>
+            </form>
+        </div>
+        
+
+           
+        )
+    }
+}
+
+export default Login;
+// need a clear button;
+
+
                  {/* <div className="row">
     <form className="col s12">
       <div className="row">
@@ -42,14 +110,3 @@ class Account extends React.Component {
       </div>
     </form>
  */}
-                <h1>My Account</h1>
-          <h2>Edit My Account</h2>
-          <h2>Past Orders</h2>
-          <h2>Payment Methods</h2>
-          <h2>Signout</h2>
-            </div>
-        )
-    }
-}
-
-export default Account;

@@ -5,7 +5,9 @@ import "./index.css";
 
 const NavTabs = props => (
     <ul className="nav nav-tabs">
-    <li><img src={require("../images/logo.png")}/></li>
+    <div className="logo">
+    <img src={require("../images/logo.png")}/>
+    </div>
     <li className="nav-item">
     <Link to="/">Home</Link>
     </li>

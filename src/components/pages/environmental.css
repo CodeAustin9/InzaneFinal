@@ -1,7 +1,7 @@
 .envTitle{}
 .envImage{
     float: left;
-    height: 400px;
+    height: auto;
     width: 50%;
     padding-left: 100px;
 }
@@ -16,6 +16,8 @@
 .envUsageDesc{
     min-height: 400px;
     font-size: 25px;
+    float: right;
+    padding-top: 100px;
 }
 ul{
     background-color: white;

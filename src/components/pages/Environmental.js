@@ -44,7 +44,7 @@ class Environmental extends React.Component {
                 <div className="envImage">
                     <img src={require("../images/demmented/da.png")} />
                 </div>
-               
+             
                
                 <div className="envImage">
                     <img src={require("../images/demmented/dma.png")} />
