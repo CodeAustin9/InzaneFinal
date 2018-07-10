@@ -10,8 +10,12 @@
     min-height: 400px;
     width: 50%;
     font-style: bold;
-    font-size: 20px;
+    font-size: 25px;
     
+}
+.envUsageDesc{
+    min-height: 400px;
+    font-size: 25px;
 }
 ul{
     background-color: white;
