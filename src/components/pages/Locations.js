@@ -10,7 +10,9 @@ class Locations extends React.Component {
                 <div class="col-sm">
                 <h3><center><strong>LOCATIONS</strong></center></h3>
                 <div>
-                <li><center><img src={require("../images/map.png")}/></center></li>
+                    <div className="map">
+                <center><img src={require("../images/map.png")}/></center>
+                </div>
                 </div>
                 </div>
 
