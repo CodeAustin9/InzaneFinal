@@ -3,7 +3,7 @@ class Environmental extends React.Component {
     render() {
         return (
             <div style={{ background: "white", width: "100%", minHeight: "200px"}}>
-                <h3><strong><center>Environmental Paintballs</center></strong></h3>
+                <h3><strong><center>ENVIRONMENTAL PAINTBALLS</center></strong></h3>
                 <div>
 
                     </div>
@@ -53,9 +53,10 @@ The ingredients of this product contain organic vegetable dye and gelatin. Color
 <h4><strong>MARKING ABILITY</strong></h4>
 <div>
  <ul>
-    <li>Specially formulated viscosity </li>
-    <li>True color range for highest quality</li>
-    <li>Nontoxic and biodegradable</li>
+    <li>Specially Formulated Viscosity</li>
+    <li>True Color Range for the Highest Quality</li>
+    <li>NONTOXIC and BIODEGRADABLE</li>
+    
  </ul>
  </div>
  <li><img src={require("../images/maddness/ma.png")}/></li>

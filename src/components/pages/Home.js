@@ -11,7 +11,7 @@ class Home extends React.Component {
         // };
         return (
             <div>
-                <strong><h1>Our Company</h1></strong>
+                <strong><center><h3>OUR COMPANY</h3></center></strong>
                 
 
                 <div>
@@ -19,8 +19,8 @@ class Home extends React.Component {
                         <strong> At Inzane Paintball we are guided by our values: Honesty, Integrity, Responsibility, Improvement, and Social Commitment. Since 1999, our company has been committed to providing the paintball industry
                             quality products in the field, for professionals and beginners. Our team of professionals is dedicated to serving the different lines of businesses, guaranteeing the best service and attention to our distributors and end users.
                             In this way, we have established ourselves as a serious and reputable company that generates prosperous businesses for the Paintball industry. We are Inzane for Paintball, are you InZane yet? </strong>
-                    </p>
-                    <li><img src={require("../images/maddness/mc.png")}/></li>
+                </p>
+                    <li><center><img src={require("../images/maddness/mc.png")}/></center></li>
 
                 </div>
             </div>
