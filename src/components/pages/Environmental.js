@@ -59,9 +59,7 @@ class Environmental extends React.Component {
                     </ul>
                 </div>
                 
-                <div className="envImage">
-                    <img src={require("../images/demmented/dsa.png")} />
-                </div>
+              
                 <div className="envDesc">
                     <h4><strong>SHELL ADVANTAGE</strong></h4>
                     <ul>
@@ -69,7 +67,9 @@ class Environmental extends React.Component {
                         <li>Breaks on Impact</li>
                     </ul>
                 </div>
-
+                <div className="envImage">
+                    <img src={require("../images/demmented/dsa.png")} />
+                </div>
 
                 <div className="envUsageDesc">
                     <h4><strong>USE AND STORAGE</strong></h4>

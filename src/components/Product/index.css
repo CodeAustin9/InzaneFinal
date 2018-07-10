@@ -1,0 +1,16 @@
+.productImg{
+    width: 600px;
+    height: auto;
+}
+.productName{
+    text-align: left;
+    padding-left: 200px;
+}
+.productLevel{
+    text-align: left;
+    padding-left: 200px;
+}
+.productPrice{
+    text-align: left;
+    padding-left: 200px;
+}
