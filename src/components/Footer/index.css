@@ -40,7 +40,7 @@ li a:hover {
   margin-left: 0;
   align-items: stretch;
 }
-.footer li{
+.footerli{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
