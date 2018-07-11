@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 // Require our dependencies
 var express = require("express");
 var mongoose = require("mongoose");
