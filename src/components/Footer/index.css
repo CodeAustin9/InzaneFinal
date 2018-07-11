@@ -1,9 +1,48 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+.footer{
+  background: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.logo{
+  width: 55%;
+  height: auto;
+  
+}
+
+.footer{
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-left: 0;
+  align-items: stretch;
+}
+.footer li{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.4rem;
+}

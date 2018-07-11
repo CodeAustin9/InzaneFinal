@@ -1,9 +1,8 @@
 import React from "react";
-import "./login.css";
-import {login} from "../../auth";
-import {Redirect} from "react-router";
+import "./signup.css";
+import {signup} from "../../auth";
 
-class Login extends React.Component {
+class Signup extends React.Component {
     state={
         username: "",
         password: "",
@@ -17,7 +16,7 @@ class Login extends React.Component {
     handleSubmit=(event)=>{
         event.preventDefault();
         this.setState({success: false, failed: false})
-        login(this.state.username, this.state.password)
+       signup(this.state.username, this.state.password)
        .then(()=>this.setState({success: true}))
        .catch(()=>this.setState({failed: true}))
     }
@@ -25,13 +24,13 @@ class Login extends React.Component {
     render() {
       let message=null
       if(this.state.failed){
-        message=<div>Login failed!</div>
+        message=<div>Signup failed.</div>
       }else if(this.state.success){
-        message=<Redirect to="/"/>
+        message=<div>Signup succeeded!</div>
       }
         return (
             <div className="body">
-                <h3><center>Login</center></h3>
+                <h3><center>Signup</center></h3>
                 {message}
                 <form onSubmit={this.handleSubmit}>
                     <div className="labels">
@@ -58,7 +57,7 @@ class Login extends React.Component {
     }
 }
 
-export default Login;
+export default Signup;
 // need a clear button;
 
 

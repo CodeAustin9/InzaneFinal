@@ -15,3 +15,6 @@ export function removeItem(id){
 export function getCart(){
     return cart;
 }
+export function emptyCart(){
+    cart = []
+}

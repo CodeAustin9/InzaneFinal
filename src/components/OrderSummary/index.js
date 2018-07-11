@@ -1,12 +1,22 @@
 import React from 'react';
 import {getCart} from '../../cart';
-var products = [];
+import {getProducts} from '../../api';
 
 class Order extends React.Component{
+    state={
+    }
+    componentDidMount(){
+        getProducts().then(products=>this.setState({
+            products: products
+        }))
+    }
     render(){
+        if(!this.state.products){
+            return <div>Please wait.</div>
+        }
         const cart=getCart()
         const number=cart.reduce((acc, item)=>acc+item.count, 0)
-        const subtotal=cart.reduce((acc, item)=>acc+item.count*products.find(x=>x.id==item.id).price, 0)
+        const subtotal=cart.reduce((acc, item)=>acc+item.count*this.state.products.find(x=>x._id==item.id).price, 0)
         const shipping = 5;
         const tax = .08;
         const total=subtotal*(1+tax) + shipping

@@ -8,7 +8,8 @@ router.get("/products", function(req, res){
     .catch(err=>res.sendStatus(500))
 })
 router.post("/orders", function(req, res){
-   
+   console.log(req.body)
+   console.log(req.user)
     if(!req.user){
         return res.sendStatus(400)
     }

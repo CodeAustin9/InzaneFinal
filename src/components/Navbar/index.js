@@ -1,9 +1,27 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import "./index.css";
+import {isLoggedIn} from "../../auth";
 
-
-const NavTabs = props => (
+const NavTabs = props => {
+    let authstuff
+    if(isLoggedIn()){
+        authstuff = (
+            <li className="nav-item">
+            <Link to="/Logout">Logout</Link>
+            </li>   
+        )
+    }else{
+        authstuff=[
+            <li className="nav-item">
+            <Link to="/Signup">Signup</Link>
+            </li>,
+            <li className="nav-item">
+            <Link to="/Login">Login</Link>
+            </li>
+        ]
+    }
+    return (
     <ul className="nav nav-tabs">
     <div className="logo">
     <img src={require("../images/logo.png")}/>
@@ -23,15 +41,11 @@ const NavTabs = props => (
     <li className="nav-item">
     <Link to="/cart">Cart</Link>
     </li>
-    <li className="nav-item">
-    <Link to="/Account">Account</Link>
-    </li>
-    <li className="nav-item">
-    <Link to="/Login">Login</Link>
-    </li>
+    {authstuff}
+  
 
     </ul>
     
 
-)
+)}
 export default NavTabs;

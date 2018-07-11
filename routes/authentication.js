@@ -5,7 +5,7 @@ var createUser = require("../authentication/createUser");
 
 router.get("/logout", function(req, res){
     req.logout();
-    res.redirect("/");
+    res.sendStatus(200);
 });
 
 router.post("/login", passport.authenticate("local"), function (req, res){
