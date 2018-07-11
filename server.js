@@ -29,7 +29,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(routes);
-// If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+// If deployed, use the deployed database. 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/username";
 
 // Connect to the Mongo DB
