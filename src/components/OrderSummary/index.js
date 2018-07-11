@@ -27,7 +27,7 @@ class Order extends React.Component{
            Your subtotal is: {subtotal}.
            Shipping cost: {shipping}.
            Total Tax: {tax*subtotal}.
-           Grand Total: {total}.
+           Grand Total: {Math.round(total*100)/100}.
            <button onClick={this.props.placeOrder}> Place Order</button>    
             
             </div>

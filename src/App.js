@@ -28,7 +28,9 @@ class App extends Component {
         <Route exact path="/Login" component={Login}/>
         <Route exact path="/cart" component={Cart}/>
         <Route exact path="/Logout" component={Logout}/>
+        <footer>
        <Footer />
+       </footer>
       </div>
     </Router>
       );
