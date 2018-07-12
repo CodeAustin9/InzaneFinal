@@ -20,7 +20,7 @@ const Footer = props =>(
   
 <ul>
 <li> The Best Paintball Family</li>
-<li>Insanity Enginnering Corporation</li>
+<li>Insanity Engeniering Corporation</li>
  <li>© 2018 Copyright Text</li>
  </ul>
  
