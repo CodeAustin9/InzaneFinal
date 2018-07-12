@@ -4,11 +4,11 @@ import "./index.css";
 const Footer = props =>(
 
 
-<div>
+<div className="footer">
   <div>
     <div>
      
-      <ul className="footer nav-tabs">
+      <ul className="nav-tabs">
         <li className="nav-item"><a  href="#!">Patrons</a></li>
         <li className="nav-item"><a  href="#!">Additional Gear</a></li>
         <li className="nav-item"><a  href="#!">Contact</a></li>

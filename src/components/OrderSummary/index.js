@@ -1,6 +1,7 @@
 import React from 'react';
 import {getCart} from '../../cart';
 import {getProducts} from '../../api';
+import "./index.css";
 
 class Order extends React.Component{
     state={
@@ -21,13 +22,15 @@ class Order extends React.Component{
         const tax = .08;
         const total=subtotal*(1+tax) + shipping
         return(
-        <div>
+        <div className="order-summary">
             <h2><strong>Order Summary</strong></h2>
-            You are purchasing {number} products.
-           Your subtotal is: {subtotal}.
-           Shipping cost: {shipping}.
-           Total Tax: {tax*subtotal}.
-           Grand Total: {Math.round(total*100)/100}.
+            <table>
+            <tr><td>Number of Products Purchased: </td> <td> {number} </td></tr>
+            <tr><td>Subtotal: </td><td> {subtotal}</td></tr>
+            <tr><td>Shipping cost: </td><td> {shipping}</td></tr>
+            <tr><td> Total Tax: </td><td>{tax*subtotal}</td></tr>
+            <tr><td> Grand Total: </td><td>{Math.round(total*100)/100}</td></tr>
+           </table>
            <button onClick={this.props.placeOrder}> Place Order</button>    
             
             </div>

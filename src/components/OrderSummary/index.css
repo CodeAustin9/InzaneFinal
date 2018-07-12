@@ -1,0 +1,10 @@
+.order-summary table{
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.4em;
+}
+.order-summary button{
+    margin: 5px auto;
+    display: block;
+    font-size: 1.2em;
+}

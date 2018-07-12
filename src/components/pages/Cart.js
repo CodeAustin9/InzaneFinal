@@ -3,6 +3,7 @@ import {getCart} from '../../cart';
 import {placeOrder} from '../../api';
 import OrderSummary from "../OrderSummary";
 import {isLoggedIn} from "../../auth";
+import "./cart.css";
 
 class Cart extends React.Component{
     state={}
@@ -15,14 +16,14 @@ class Cart extends React.Component{
     }
     render(){
         if (this.state.done){
-            return <div>Thank you! Your order has been placed!</div>
+            return <div className="message">Thank you! Your order has been placed!</div>
         }
         let message=null
         if(!isLoggedIn()){
-            message=<div>You must log in to order.</div>
+            message=<div className="message">You must log in to order.</div>
         }
         return(
-           <div>
+           <div className="cart">
                {message}
                <OrderSummary placeOrder={this.placeOrder}/>
            </div>

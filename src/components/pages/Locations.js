@@ -20,6 +20,7 @@ class Locations extends React.Component {
                 <div classame="container">
                 <div className="row">
                 <div className="col-sm">
+
                 <div className="location">
                 <h4><strong>USA</strong>(HEADQUARTERS)</h4>
                 </div>
@@ -42,6 +43,7 @@ class Locations extends React.Component {
                 <div classame="container">
                 <div className="row">
                 <div className="col-sm">
+
                 <div className="location">
                 <h4><strong>CANADA</strong></h4>
                 </div>
@@ -64,6 +66,7 @@ class Locations extends React.Component {
                 <div classame="container">
                 <div className="row">
                 <div className="col-sm">
+
                 <div className="location">
                 <h4><strong>CENTRAL AMERICA</strong></h4>
                 </div>
@@ -78,6 +81,7 @@ class Locations extends React.Component {
                 <div classame="container">
                 <div className="row">
                 <div className="col-sm">
+
                 <div className="location">
                 <h4><strong>SOUTH AMERICA</strong></h4>
                 </div>
@@ -93,6 +97,7 @@ class Locations extends React.Component {
                 <div classame="container">
                 <div className="row">
                 <div className="col-sm">
+                
                 <div className="location">
                 <h4><strong>MEXICO</strong></h4>
                 </div>
